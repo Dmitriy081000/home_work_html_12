@@ -1,0 +1,398 @@
+.center {
+    z-index: 7;
+    width: 100%;
+    height: 53%;
+    position: relative;
+    background: url(../images/4441.jpg) center;
+    background-size: cover;
+    top: -23%;
+}
+
+.tre>img {
+    width: 100%;
+}
+
+.tre__1,
+.tre__2,
+.tre__3,
+.tre__4,
+.tre__5,
+.tre__6,
+.tre__7,
+.tre__8,
+.tre__9,
+.tre__10,
+.tre__11 {
+    width: 7%;
+    position: absolute;
+    }
+
+.tre__1 {
+    z-index: 50;
+    top: calc(100% - 120%);
+    left: 1%;
+}
+
+.tre__2 {
+    z-index: 49;
+    top: calc(100% - 125%);
+    right: 95%;
+}
+
+.tre__3 {
+    z-index: 45;
+    width: 6%;
+    top: calc(100% - 115%);
+    left: 5%;
+}
+
+.tre__4 {
+    z-index: 45;
+    width: 10%;
+    top: 1%;
+    left: 15%;
+}
+
+.tre__5 {
+    z-index: 30;
+    top: calc(100% - 115%);
+    left: 25%;
+}
+
+.tre__6 {
+    z-index: 40;
+    top: calc(100% - 105%);
+    left: 35%;
+}
+
+.tre__7 {
+    z-index: 45;
+    width: 5%;
+    top: calc(100% - 120%);
+    left: 45%;
+}
+
+.tre__8 {
+    z-index: 45;
+    width: 5%;
+    top: calc(100% - 119%);
+    left: 50%;
+}
+
+.tre__9 {
+    z-index: 45;
+    width: 7%;
+    top: calc(100% - 115%);
+    left: 53%;
+}
+
+.tre__10 {
+    z-index: 21;
+    top: calc(100% - 101%);
+    left: 80%;
+}
+
+.tre__1:hover,
+.tre__2:hover,
+.tre__3:hover,
+.tre__4:hover,
+.tre__7:hover,
+.tre__8:hover,
+.tre__9:hover,
+.tre__10:hover {
+    animation-name: pool4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+.tre__5,
+.tre__6 {
+    animation-name: pool4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+.dub{
+    width: 100%;
+    height: 50%;;
+    position: relative;
+}
+
+.dub img {
+    width: 100%;
+}
+
+.dub__1,
+.dub__2,
+.dub__3,
+.dub__4,
+.dub__5,
+.dub__6,
+.dub__7 {
+    width: 7%;
+    position: absolute;
+}
+
+.dub__1 {
+    z-index: 50;
+    width: 10%;
+    top: calc(100% - 100%);
+    right: 92%;
+}
+
+.dub__2 {
+    top: calc(100% - 140%);
+    left: 46%;
+}
+
+.dub__3 {
+    z-index: 20;
+    top: calc(100% - 140%);
+    left: 3%;
+}
+
+.dub__4 {
+    z-index: 22;
+    width: 12%;
+    top: calc(100% - 120%);
+    left: 88%;
+}
+
+.dub__5 {
+    z-index: 20;
+    width: 10%;
+    top: calc(100% - 130%);
+    left: 70%;
+}
+
+.dub__6 {
+    z-index: 51;
+    width: 10%;
+    top: calc(100% - 80%);
+    left: 47%;
+}
+
+.dub__7 {
+    z-index: 20;
+    width: 10%;
+    top: calc(100% - 140%);
+    left: 15%;
+}
+
+.dub__1:hover,
+.dub__4:hover,
+.dub__5:hover {
+    animation-name: pool4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+.dub__2,
+.dub__3,
+.dub__6,
+.dub__7 {
+    animation-name: pool4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+.trees{
+    width: 100%;
+    height: 50%;;
+    position: relative;
+}
+
+.item>img {
+    width: 100%;
+}
+
+.item__1,
+.item__2,
+.item__3,
+.item__4,
+.item__5,
+.item__6 {
+    width: 15%;
+    position: absolute;
+}
+
+.item__1 {
+    z-index: 41;
+    top: calc(100% - 250%);
+    right: 59%;
+}
+
+.item__2 {
+    z-index: 50;
+    top: calc(100% - 250%);
+    right: 79%;
+}
+
+.item__3 {
+    z-index: 20;
+    width: 15%;
+    top: calc(100% - 265%);
+    right: 51%;
+}
+
+.item__4 {
+    z-index: 50;
+    top: calc(100% - 220%);
+    right: 25%;
+}
+
+.item__5 {
+    z-index: 20;
+    width: 10%;
+    top: calc(100% - 230%);
+    right: 8%;
+}
+
+.item__6 {
+    z-index: 20;
+    width: 10%;
+    top: calc(100% - 230%);
+    right: 35%;
+}
+
+.item__1:hover,
+.item__2:hover,
+.item__3:hover,
+.item__4:hover,
+.item__6:hover {
+    animation-name: pool4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+.item__5 {
+    animation-name: pool4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+.tree__maple{
+    width: 100%;
+}
+
+.maple>img {
+    width: 100%;
+}
+
+.maple {
+    position: absolute;
+    width: 17%;
+}
+
+.maple__1 {
+    width: 10%;
+    bottom: 80%;
+    left: 75%;
+}
+
+.maple__2 {
+    width: 9%;
+    bottom: 82%;
+    right: 1%;
+}
+
+.maple__3 {
+    width: 10%;
+    bottom: 70%;
+    right: 30%;
+}
+
+.maple__4 {
+    z-index: 50;
+    width: 10%;
+    bottom: 70%;
+    right: 48%;
+}
+
+.maple__5 {
+    width: 10%;
+    bottom: 86%;
+    left: 20%;
+}
+
+.maple__1:hover,
+.maple__4:hover,
+.maple__5:hover {
+    animation-name: pool4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+.maple__2,
+.maple__3 {
+    animation-name: pool4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+.tree__pool{
+    width: 10%;
+}
+
+.tree__pool img {
+    width: 100%;
+}
+
+.pool {
+    position: absolute;
+    width: 10%;
+}
+
+.pool__1 {
+    z-index: 51;
+    bottom: 50%;
+    left: 8%;
+}
+
+.pool__2 {
+    z-index: 30;
+    bottom: 52%;
+    left: 20%;
+}
+
+.pool__3 {
+    bottom: 80%;
+    right: 5%;
+}
+
+.pool__4 {
+    bottom: 75%;
+    right: 25%;
+}
+
+.pool__1:hover,
+.pool__2:hover,
+.pool__3:hover,
+.pool__4:hover {
+    animation-name: pool4;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes pool4 {
+    0% {
+        transform: rotate3d(1, 20, 0, 15deg);
+    }
+
+    40% {
+        transform: rotate3d(1, 40, 0, -15deg);
+      }
+    
+      60% {
+        transform: rotate3d(1, 3, 0, 5deg);
+      }
+    
+      80% {
+        transform: rotate3d(1, 10, 0, -15deg);
+      }
+    
+
+    100% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}

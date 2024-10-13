@@ -1,0 +1,367 @@
+.up {
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+
+.moun {
+    width: 100%;
+    height: 62%;
+    position: relative;
+}
+
+.moun__gor1 {
+    z-index: 6;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    width: 70%;
+    height: 80%;
+    background: url(../images/gori1-qoGcKnp1U-transformed.png) center;
+    background-size: cover;
+}
+
+.moun__gor2 {
+    z-index: 6;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 50%;
+    height: 70%;
+    background: url(../images/gori1-qoGcKnp1U-transformed.png);
+    background-size: cover;
+}
+
+.moun__gor3 {
+    z-index: 6;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 60%;
+    height: 60%;
+    background: url(../images/gori1-qoGcKnp1U-transformed.png) center;
+    background-size: cover;
+}
+
+.sun__container {
+    z-index: 5;
+    width: 9%;
+    height: 25%;
+    position: absolute;
+    animation-name: sun;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+.sun {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(243, 243, 1);
+}
+
+.eyes {
+    position: absolute;
+    width: 90%;
+    height: 15%;
+    top: 33%;
+    left: 5%;
+}
+
+.left__eye {
+    position: absolute;
+    width: 20%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 3%;
+    left: 18%;
+    background-color: rgb(248, 248, 125);;
+}
+
+.rigth__eye {
+    position: absolute;
+    width: 20%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 3%;
+    left: 65%;
+    background-color: rgb(248, 248, 125);
+}
+
+#mycanvas {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 40%;
+    right: 20%;
+}
+
+.mini__l {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 20%;
+    left: 35%;
+    background-color: rgb(0, 0, 0);
+}
+
+.mini__r {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 20%;
+    left: 35%;
+    background-color: rgb(0, 0, 0);
+}
+
+.luch {
+    position: absolute;
+    width: 170%;
+    height: 170%;
+    bottom: -35%;
+    right: -35%;
+    animation-name: luch;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+.luch img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.lol {
+    position: absolute;
+    width: 40%;
+    bottom: 75%;
+    margin: 0 auto;
+    display: none;
+}
+
+.lol>img {
+    width: 100%;
+}
+
+.sun__container:hover {
+    animation-play-state:paused;
+}
+
+.sun__container:hover .lol{
+    display: flex;
+    width: 100%;
+} 
+
+.sun__container:hover .mini__l,
+.sun__container:hover .mini__r {
+    height: 80%;
+    width: 17%;
+    animation-name: kol;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+ } 
+
+ .sun__container:hover .rigth__eye,
+ .sun__container:hover .left__eye {
+    height: 40%;
+    width: 33%;
+ }
+
+ .sun__container:hover .eyes {
+    left: 1%;
+ }
+
+.smile {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.angry {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.sun__container:hover .angry {
+    display: flex;
+}
+
+.sun__container:hover .smile {
+    display: none;
+}
+
+.smile__item {
+    position: absolute;
+    width: 50%;
+    border: 1px solid black;
+    left: 25%;
+    top: 60%;
+    display: none;
+}
+
+.sun__container:hover .smile__item {
+    display: flex;
+}
+
+@keyframes luch {
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+ @keyframes sun {
+    from {
+        left: -10%;
+        top: 40%;
+        scale: 50%;
+    }
+
+    25% {
+        top: 10%;
+        left: 25%;
+        scale: 100%;
+    }
+
+    50% {
+        top: 10%;
+        left: 50%;
+        scale: 100%;
+    }
+
+    to {
+        top: 60%;
+        left: 85%;
+        scale: 50%;
+    }
+}
+
+@keyframes kol {
+    from {
+        top: 20%;
+        left: 0;
+    }
+
+    50% {
+        top: 26%;
+        left: 80%;
+    }
+
+    to {
+        top: 20%;
+        left: 0;
+    }
+}
+
+.sky {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+
+.cloud {
+    position: absolute;
+    width: 10%;
+}
+
+.cloud img {
+    width: 100%;
+}
+
+.cloud__1 {
+    top: 10%;
+    left: 20%;
+}
+
+.cloud__2 {
+    top: 15%;
+    left: 45%;
+}
+
+.cloud__3 {
+    top: 50%;
+    left: 2%;
+}
+
+
+.cloud__4 {
+    top: 10%;
+    left: 8%;
+}
+
+.cloud__5 {
+    top: 17%;
+    left: 80%;
+}
+
+.cloud__6 {
+    top: 20%;
+    left: 90%;
+}
+
+.cloud__7 {
+    top: 10%;
+    left: 65%;
+    
+}
+
+.cloud__8 {
+    top: 60%;
+    left: 73%;
+    
+}
+
+.cloud__9 {
+    top: 30%;
+    left: 35%;
+    
+}
+
+.cloud__10 {
+    top: 40%;
+    left: 56%;
+    
+}
+
+.cloud__1,
+.cloud__2,
+.cloud__3,
+.cloud__4,
+.cloud__5,
+.cloud__6,
+.cloud__7,
+.cloud__8,
+.cloud__9,
+.cloud__10 {
+    animation-name: sky;
+    animation-duration: 7s;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes sky {
+    0% {
+        scale: 100%;
+    }
+    
+    100% {
+        scale: 90%;
+    }
+}
